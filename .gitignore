@@ -1,0 +1,15 @@
+/target/
+/test-output/
+/.settings/
+.classpath
+.project
+.idea/
+*.iml
+/bin
+generator/target/generated-sources/
+junit-tests/target/generated-sources/
+test-utils/target/generated-sources/
+ui-tests/target/generated-sources/
+ui-tests/target/generated-test-sources/
+ws-tests/target/generated-sources/
+ws-tests/target/generated-test-sources/
