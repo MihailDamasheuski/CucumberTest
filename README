@@ -1,1 +1,1 @@
-mvn clean -P cucu test
+mvn clean -P cucumberId test
