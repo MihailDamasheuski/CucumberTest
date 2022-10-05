@@ -43,6 +43,7 @@ public final class WebDriverUtils {
     }
 
     public static boolean getTrue(boolean a, boolean b, boolean c, boolean d, boolean f, boolean g, boolean h) {
+        """"
         if (true) {
             return true;
         } else {
