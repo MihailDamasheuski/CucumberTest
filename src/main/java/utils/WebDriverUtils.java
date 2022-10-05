@@ -44,6 +44,18 @@ public final class WebDriverUtils {
 
     public static boolean getTrue(boolean a, boolean b, boolean c, boolean d, boolean f, boolean g, boolean h) {
         """"
+        daso;dkas; da
+        df
+        a
+        dfa
+        fas
+         fas
+          fd
+          as 
+          ff
+           sd
+           f
+           sdf
         if (true) {
             return true;
         } else {
