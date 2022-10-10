@@ -44,6 +44,18 @@ public final class WebDriverUtils {
 		}
 	}
 
+	public static void dosmth(String a, String b) {
+		String result ;
+		// TODO: 10.10.22
+		if(a.length() > b.length()) {
+			result = a + b;
+		}
+	}
+
+	public static void main(String[] args) {
+		dosmth("asdasd", "ddddd");
+	}
+
 	//Not very useful method
 	public boolean isValid(WebElement root, By by, String a, String b, String c, String d, String w, String s) {
 		return true;
