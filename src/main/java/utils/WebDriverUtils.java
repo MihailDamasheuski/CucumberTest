@@ -28,15 +28,36 @@ public final class WebDriverUtils {
 	/**
 	 * Return element if it's present and null if not
 	 *
+	 *
 	 * @param root element to find on
 	 * @param by   - search locator
 	 * @return element
 	 */
+
+	// TODO: 5.10.22 CHeck this method. It should return boolean
 	public static WebElement isElementPresent(WebElement root, By by) {
 		try {
 			return root.findElement(by);
 		} catch (NoSuchElementException e) {
+			//update this method to throw an error but not to return null
 			return null;
 		}
+	}
+
+	public static void dosmth(String a, String b) {
+		String result ;
+		// TODO: 10.10.22
+		if(a.length() > b.length()) {
+			result = a + b;
+		}
+	}
+
+	public static void main(String[] args) {
+		dosmth("asdasd", "ddddd");
+	}
+
+	//Not very useful method
+	public boolean isValid(WebElement root, By by, String a, String b, String c, String d, String w, String s) {
+		return true;
 	}
 }
